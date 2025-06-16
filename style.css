@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.imgur.com/t4nRrx1.jpg'); /* Gojo Satoru background */
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgb(13, 46, 197);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(251, 253, 255, 0.959);
+  }
+  
+  .calculator {
+    width: 300px;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 20px;
+    font-size: 24px;
+    text-align: right;
+    background: #f6d2d2;
+    color: #fc0a0a;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 3%);
+    color: #fdf8f8;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e70d0d;
+  }
+  
